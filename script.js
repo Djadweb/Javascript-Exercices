@@ -1,5 +1,6 @@
 //********************************************
 
+
 //Converts a specified number to an array of digits
 
 // const toArray = n => {
@@ -9,10 +10,24 @@
 
 //********************************************
 
+
 //Decapitalize the first letter of a string
 
-const decapitalise = str => {
-    console.log(str.charAt(0).toLowerCase() + str.slice(1));
+// const decapitalise = str => {
+//     console.log(str.charAt(0).toLowerCase() + str.slice(1));
+// }
+
+// decapitalise("Djamel")
+
+
+
+//********************************************
+
+
+//Get a random number in the specified range
+
+const randomNumber = (a, b) => {
+    console.log(Math.random() * (b - a) + a);
 }
 
-decapitalise("Djamel")
+randomNumber(3, 5)
