@@ -26,8 +26,26 @@
 
 //Get a random number in the specified range
 
-const randomNumber = (a, b) => {
-    console.log(Math.random() * (b - a) + a);
+// const randomNumber = (a, b) => {
+//     console.log(Math.random() * (b - a) + a);
+// }
+
+// randomNumber(3, 5)
+
+
+//********************************************
+
+
+//Count the occurrences of a value in an array
+
+const count = (myarray, value) => {
+    let nb=0;
+    for(el of myarray) {
+        if(el === value)
+            nb++;
+    }
+    console.log(nb)
 }
 
-randomNumber(3, 5)
+const array = [5,5,5,1,4,8,9,8,5,654,8,2];
+count(array, 5)
