@@ -1,6 +1,18 @@
+//********************************************
+
 //Converts a specified number to an array of digits
-const toArray = n => {
-    console.log(Array.from(n.toString()))    
+
+// const toArray = n => {
+//     console.log(Array.from(n.toString()))    
+// }
+
+
+//********************************************
+
+//Decapitalize the first letter of a string
+
+const decapitalise = str => {
+    console.log(str.charAt(0).toLowerCase() + str.slice(1));
 }
 
-toArray(15236);
+decapitalise("Djamel")
