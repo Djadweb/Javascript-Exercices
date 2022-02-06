@@ -53,10 +53,28 @@
 
 //Convert a given string into an array of words
 
-const toWordsArray = (string) => {
-    console.log(string.split(' '));
-}
+// const toWordsArray = (string) => {
+//     console.log(string.split(' '));
+// }
 
-toWordsArray("My name is djamel");
+// toWordsArray("My name is djamel");
+
+
+//********************************************
+
+
+//Return true if the given value is a number, false otherwise
+
+// const checkNumber = (value) => {
+//     if(typeof(value) === "number") {
+//         console.log("true")        
+//     } else {
+//         console.log("false");
+//     }
+// }
+
+// checkNumber("1231");
+
+
 
 //********************************************
