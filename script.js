@@ -82,13 +82,25 @@
 
 //Get the nth element of a given array
 
-const getElement = (array, n) => {
-    let element = array.slice(n-1, n);
-    console.log(element)
-}
+// const getElement = (array, n) => {
+//     let element = array.slice(n-1, n);
+//     console.log(element)
+// }
 
-getElement([5, 2, 6, 88, 3, 102], 3);
+// getElement([5, 2, 6, 88, 3, 102], 3);
 
 
+
+//********************************************
+
+
+
+//Truncate a string up to a specified length
+
+// const truncate = (s, n) => {
+//     console.log(s.substring(0, n));
+// }
+
+// truncate("boumediene", 7);
 
 //********************************************
