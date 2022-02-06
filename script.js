@@ -38,14 +38,25 @@
 
 //Count the occurrences of a value in an array
 
-const count = (myarray, value) => {
-    let nb=0;
-    for(el of myarray) {
-        if(el === value)
-            nb++;
-    }
-    console.log(nb)
+// const count = (myarray, value) => {
+//     let nb=0;
+//     for(el of myarray) {
+//         if(el === value)
+//             nb++;
+//     }
+//     console.log(nb)
+// }
+
+
+//********************************************
+
+
+//Convert a given string into an array of words
+
+const toWordsArray = (string) => {
+    console.log(string.split(' '));
 }
 
-const array = [5,5,5,1,4,8,9,8,5,654,8,2];
-count(array, 5)
+toWordsArray("My name is djamel");
+
+//********************************************
