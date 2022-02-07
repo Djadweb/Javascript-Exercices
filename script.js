@@ -205,12 +205,24 @@
 
 //16- Invokes the provided function after wait milliseconds
 
-const delayFunction = (fn, time) => {
-    setTimeout(fn, time);
-}
+// const delayFunction = (fn, time) => {
+//     setTimeout(fn, time);
+// }
 
-const display = () => {
-    window.alert('Delayed message');
-}
+// const display = () => {
+//     window.alert('Delayed message');
+// }
 
-delayFunction(display, 3000);
+// delayFunction(display, 3000);
+
+
+//********************************************
+
+
+//17- Get the current URL
+
+// const getUrl = () => {
+//     console.log(window.location.href);
+// }
+
+// getUrl()
