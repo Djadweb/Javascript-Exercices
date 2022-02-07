@@ -175,10 +175,28 @@
 
 //14 -Log the name of a function
 
-const getName = fName => {
-    console.log(fName.name);
+// const getName = fName => {
+//     console.log(fName.name);
+// }
+
+// getName(function testFunction() {
+//     console.log("nothing");
+// })
+
+
+
+//********************************************
+
+
+//15- Write a JavaScript program to calculate the factorial of a number.
+
+const fact = number => {
+    let factorial = 1;
+    for(let i=number; i>0; i--) {
+        factorial= factorial*i;
+    }
+
+    console.log(factorial);
 }
 
-getName(function testFunction() {
-    console.log("nothing");
-})
+fact(3);
