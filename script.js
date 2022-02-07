@@ -1,7 +1,7 @@
 //********************************************
 
 
-//Converts a specified number to an array of digits
+//1- Converts a specified number to an array of digits
 
 // const toArray = n => {
 //     console.log(Array.from(n.toString()))    
@@ -11,7 +11,7 @@
 //********************************************
 
 
-//Decapitalize the first letter of a string
+//2- Decapitalize the first letter of a string
 
 // const decapitalise = str => {
 //     console.log(str.charAt(0).toLowerCase() + str.slice(1));
@@ -24,7 +24,7 @@
 //********************************************
 
 
-//Get a random number in the specified range
+//3- Get a random number in the specified range
 
 // const randomNumber = (a, b) => {
 //     console.log(Math.random() * (b - a) + a);
@@ -36,7 +36,7 @@
 //********************************************
 
 
-//Count the occurrences of a value in an array
+//4- Count the occurrences of a value in an array
 
 // const count = (myarray, value) => {
 //     let nb=0;
@@ -51,7 +51,7 @@
 //********************************************
 
 
-//Convert a given string into an array of words
+//5- Convert a given string into an array of words
 
 // const toWordsArray = (string) => {
 //     console.log(string.split(' '));
@@ -63,7 +63,7 @@
 //********************************************
 
 
-//Return true if the given value is a number, false otherwise
+//6- Return true if the given value is a number, false otherwise
 
 // const checkNumber = (value) => {
 //     if(typeof(value) === "number") {
@@ -80,7 +80,7 @@
 //********************************************
 
 
-//Get the nth element of a given array
+//7- Get the nth element of a given array
 
 // const getElement = (array, n) => {
 //     let element = array.slice(n-1, n);
@@ -95,7 +95,7 @@
 
 
 
-//Truncate a string up to a specified length
+//8- Truncate a string up to a specified length
 
 // const truncate = (s, n) => {
 //     console.log(s.substring(0, n));
@@ -109,7 +109,7 @@
 //********************************************
 
 
-//Reverse the order of the characters in the string
+//9- Reverse the order of the characters in the string
 
 // const reverse = s => {
 //     console.log(s.split('').reverse().join(''))
@@ -121,7 +121,7 @@
 //********************************************
 
 
-//Redirect to a specified URL
+//10- Redirect to a specified URL
 
 // const redirect = (url) => {
 //     window.location.href = url;
@@ -133,7 +133,7 @@
 //********************************************
 
 
-//Get the last element from a given array
+//11- Get the last element from a given array
 
 // const lastElement = (array) => {    
 //     console.log(array[array.length - 1])
@@ -145,7 +145,7 @@
 //********************************************
 
 
-//Check whether the given argument is a symbol
+//12- Check whether the given argument is a symbol
 
 // const checkSymbol = (value) => {
 //     if(typeof(value) === "symbol") {
@@ -157,13 +157,28 @@
 
 // checkSymbol(Symbol("✌️"));
 
+
 //********************************************
 
 
-//Check if a given number is even or not
+//13- Check if a given number is even or not
 
-const even = (number) => {
-    console.log(number % 2 === 0);
+// const even = (number) => {
+//     console.log(number % 2 === 0);
+// }
+
+// even(19)
+
+
+//********************************************
+
+
+//14 -Log the name of a function
+
+const getName = fName => {
+    console.log(fName.name);
 }
 
-even(19)
+getName(function testFunction() {
+    console.log("nothing");
+})
